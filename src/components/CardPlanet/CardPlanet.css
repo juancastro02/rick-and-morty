@@ -1,0 +1,64 @@
+.card-planet-contain {
+  height: 500px;
+  width: 70%;
+  background-color: white;
+  border-radius: 10px;
+  margin: 5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-planet-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.information-location {
+  font-size: 25px;
+  padding: 10px;
+}
+
+.information-location-questions {
+  font-size: 25px;
+  color: gray;
+}
+
+.title-location {
+  color: blue;
+}
+
+.btn-location {
+  height: 45px;
+  min-width: 10%;
+  margin-left: 20px;
+  border-radius: 0.2rem;
+  border: 1px solid black;
+  font-size: 20px;
+  font-family: "Blinker", sans-serif;
+  background-color: red;
+  color: white;
+}
+
+.btn-location:active {
+  border: 4px solid black;
+  transition: all 0.1s ease-in;
+}
+
+@media (max-width: 1000px) {
+  .card-planet-contain {
+    width: 100%;
+    margin: 1rem;
+  }
+
+  .information-location {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .btn-location {
+    margin-top: 20px;
+  }
+}
