@@ -26,6 +26,11 @@
   border: 3px solid black;
 }
 
+.search-button:hover {
+ cursor: pointer;
+}
+
+
 .pagination {
   display: flex;
   padding: 1rem;

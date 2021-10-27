@@ -2,7 +2,7 @@
   background-color: white;
   display: flex;
   margin: 10px;
-  height: 400px;
+  height: 300px;
   width: 40%;
   border-radius: 10px;
 }
@@ -25,20 +25,20 @@
 }
 
 .principal-title {
-  font-size: 50px;
+  font-size: 30px;
   display: flex;
   align-items: center;
   padding: 10px;
 }
 
 .secondary-title {
-  font-size: 22px;
-  padding: 10px;
+  font-size: 20px;
+  padding: 5px;
 }
 
 .point-title {
-  font-size: 22px;
-  padding: 10px;
+  font-size: 20px;
+  padding: 5px;
   color: gray;
 }
 
